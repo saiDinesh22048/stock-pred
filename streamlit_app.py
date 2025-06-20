@@ -57,7 +57,7 @@ scaler = MinMaxScaler(feature_range = (0,1))
 data_training_array = scaler.fit_transform(data_training)
 
 #Loading Model
-model = load_model('keras_model.h5')
+model = load_model('lstm_stock_model.h5')
 
 #Testing Model
 past_100_days = data_training.tail(100)
