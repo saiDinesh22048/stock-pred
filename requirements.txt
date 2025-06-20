@@ -1,7 +1,10 @@
-streamlit==1.26.0
-numpy==1.24.4
-pandas==2.2.2
-matplotlib==3.8.4
-scikit-learn==1.4.2
-tensorflow==2.15.0
+numpy
+pandas
+tensorflow
+keras
+matplotlib
+pandas_datareader
+scikit_learn
+seaborn
+streamlit
 
